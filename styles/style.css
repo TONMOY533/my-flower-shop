@@ -1,18 +1,52 @@
+
 body {
     font-family: 'Lato', sans-serif;
+    padding: 0;
 }
 
 /*header section is here*/
 .banner {
     background: rgba(229, 84, 115, 0.10);
-    padding: 0%;
-    height: 1920px ;
+    padding: 50px 240px 0px;
+    height: 850px ;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    
 }
 
 text {
-    display: flex;
-flex-direction: column;
+    max-width: 700px;
+    }
+
+.let{
+    color: #272727;
+font-size: 90px;
+font-weight: 800;
+width: 700px;
+
+}
+
+.it-is {
+    color: rgba(39, 39, 39, 0.60);
+font-size: 30px;
+font-weight: 400;
+line-height: 30px;
+width: 650px;
+margin-top:32px ;
+}
+
+.pts {
+    border-radius: 8px;
+background: #E55473;
+    display: inline-flex;
+padding: 20px 43px;
+align-items: flex-start;
+gap: 10px;
+color: white;
+
+}
+
+.img {
+    width: 635px;
 }
