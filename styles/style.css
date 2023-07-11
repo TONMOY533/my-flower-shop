@@ -6,7 +6,7 @@ body {
 
 /*header section is here*/
 .banner {
-    background: rgba(229, 84, 115, 0.10);
+    background: rgba(229, 84, 115, 0.1);
     padding: 50px 240px 0px;
     height: 850px ;
     display: flex;
@@ -38,7 +38,7 @@ margin-top:32px ;
 
 .pts {
     border-radius: 8px;
-background: #E55473;
+background: #f56d6d;
     display: inline-flex;
 padding: 20px 43px;
 align-items: flex-start;
@@ -93,4 +93,95 @@ text-align: center;
 font-size: 16px;
 font-weight: 400;
 margin-top: 32px;
+}
+
+
+/*down section*/
+.banner-dis { 
+    width: 1922px;
+height: 620px;
+border-radius: 8px;
+background: rgba(229, 84, 115, 0.05);
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 100px 400px;
+}
+
+
+.hib {
+    align-items: center;
+    
+    
+} 
+
+
+.ht {
+    color: #272727;
+font-size: 40px;
+font-weight: 800;
+
+
+
+}
+
+.is {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    
+}
+
+.btn { 
+    text-align: center;
+    border-radius: 8px;
+    background: #f56d6d;
+    color: white;
+    height: 60px;
+    width: 150px;
+    
+    
+
+} 
+
+
+
+
+
+.text-ins {
+    align-items: center;
+    color: #272727;
+font-size: 40px;
+font-weight: 800;
+height: 180px;
+
+    }
+
+.sect{
+    text-align: center;
+
+    
+}
+
+.secd {
+    color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-size: 18px;
+
+font-weight: 400;
+line-height: 30px;
+
+    
+}
+
+.imgabcd {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.get-to-ing {
+    background-image: url('/Flower\ Asset/9.jpg');
+
 }
