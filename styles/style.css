@@ -145,7 +145,10 @@ font-weight: 800;
 
 } 
 
-
+.dwnsec {
+    height: 4880;
+    width: 1920;
+}
 
 
 
@@ -178,10 +181,10 @@ line-height: 30px;
 .imgabcd {
     display: flex;
     justify-content: space-around;
+    padding-right: 20px;
 
 }
 
-.get-to-ing {
-    background-image: url('/Flower\ Asset/9.jpg');
-
-}
+.t-toing {
+    background-image: url('../Flower Asset/11.jpg');
+    }
