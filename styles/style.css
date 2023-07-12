@@ -1,7 +1,7 @@
 
 body {
     font-family: 'Lato', sans-serif;
-    padding: 0;
+    
 }
 
 /*header section is here*/
@@ -62,7 +62,7 @@ height: 620px;
 border-radius: 8px;
 background: rgba(229, 84, 115, 0.05);
 display: flex;
-justify-content: space-between;
+justify-content: space-evenly;
 align-items: center;
 padding: 100px 400px;
 }
@@ -101,6 +101,81 @@ font-weight: 800;
     width: 150px;
 } 
 
+
+.social {
+    height:1922px ;
+    width: 620px ;
+}
+
+.picsize {
+    padding: 300px 240px 128px 240px;
+    align-items: center;
+    
+}
+
+.imgsz {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 128px;
+}
+
+.ins { 
+    color: #272727;
+text-align: center;
+font-size: 40px;
+font-weight: 800; ;
+}
+.it-is {
+    display: flex;
+width: 594px;
+flex-direction: column;
+color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+}
+
+
+
+.bgpic {
+    width: 1440px;
+height: 449px;
+    background-image: url('/Flower Asset/11.png')
+}
+
+.getthe {
+    color: #272727;
+text-align: center;
+font-size: 40px;
+font-weight: 800;
+
+}
+
+.coupon {
+    color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+}
+
+.inpu {
+    border-radius: 8px;
+    gap: 30px;
+    width: 700px;
+    height: 60px
+    
+    
+    
+}
+
+.inpubtn {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    
+}
 
 
 
@@ -148,3 +223,4 @@ font-size: 16px;
 font-weight: 400;
 margin-top: 32px;
 }
+
